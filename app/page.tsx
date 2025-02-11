@@ -33,7 +33,7 @@ export default function Home() {
               <div className="lg:col-span-2 lg:order-first">
                 <Image
                   className="w-full max-w-sm mx-auto"
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screen%2093-portrait-T8mAfCu8YadkScGNPlT3A6hxFOeFWB.png"
+                  src="/aura-mockup.png"
                   alt="Aura Rating App Interface showing holographic orb and metrics"
                   width={390}
                   height={844}
