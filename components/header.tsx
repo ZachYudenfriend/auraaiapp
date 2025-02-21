@@ -41,7 +41,7 @@ const Header = () => {
           <nav className="hidden space-x-10 md:flex md:items-center md:justify-center lg:space-x-12">
             <NavLink href="#" label="Features" />
             <NavLink href="#" label="Blog" />
-            <NavLink href="#" label="Jobs" />
+            <NavLink href="/support" label="Support" />
           </nav>
         </div>
 
@@ -50,7 +50,7 @@ const Header = () => {
             <div className="flex flex-col pt-8 pb-4 space-y-6">
               <NavLink href="#" label="Features" />
               <NavLink href="#" label="Blog" />
-              <NavLink href="#" label="Jobs" />
+              <NavLink href="/support" label="Support" />
             </div>
           </nav>
         )}
