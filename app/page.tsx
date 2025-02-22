@@ -44,18 +44,47 @@ export default function Home() {
           <div className="h-full flex items-center">
             <section className="w-full">
               <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-                <div className="grid items-center max-w-5xl grid-cols-1 mx-auto gap-y-8 lg:grid-cols-5 gap-x-16">
-                  <div className="max-w-md mx-auto text-center lg:max-w-none lg:col-span-3">
-                    <h1 className="text-4xl font-normal text-white uppercase sm:text-5xl lg:text-6xl xl:text-8xl">
+                <div className="flex flex-col lg:grid lg:grid-cols-5 items-center max-w-5xl mx-auto gap-y-2 lg:gap-y-8 lg:gap-x-16">
+                  {/* Title - Always on top for mobile */}
+                  <div className="w-full lg:hidden text-center mt-8 mb-2 relative z-10">
+                    <h1 className="text-4xl sm:text-5xl font-normal text-white uppercase">
                       Become.{" "}
                       <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-purple-500 animate-gradient-x">
                         Confident.
                       </span>
                     </h1>
-                    <p className="mt-6 text-lg font-normal text-white sm:text-xl">
+                  </div>
+
+                  {/* Image */}
+                  <div className="lg:col-span-2 lg:order-first w-full">
+                    <div className="flex justify-center lg:justify-start">
+                      <Image
+                        className="w-[280px] sm:w-[320px] lg:w-full max-w-sm mx-auto"
+                        src="/aura-mockup.png"
+                        alt="Aura Rating App Interface showing holographic orb and metrics"
+                        width={390}
+                        height={844}
+                        priority
+                      />
+                    </div>
+                  </div>
+
+                  {/* Content */}
+                  <div className="max-w-md mx-auto text-center lg:max-w-none lg:col-span-3 lg:order-last">
+                    {/* Title - Only visible on desktop */}
+                    <div className="hidden lg:block">
+                      <h1 className="text-5xl xl:text-7xl font-normal text-white uppercase">
+                        Become.{" "}
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-purple-500 animate-gradient-x">
+                          Confident.
+                        </span>
+                      </h1>
+                    </div>
+                    
+                    <p className="hidden lg:block mt-4 sm:mt-6 text-base sm:text-lg font-normal text-white">
                       Our real-time AI coach helps you develop the skills, mindset, and charisma to own every interaction.
                     </p>
-                    <div className="mt-8 sm:mt-10">
+                    <div className="mt-2 lg:mt-6 sm:mt-8">
                       <motion.div 
                         className="relative inline-flex group"
                         whileHover={{ scale: 1.05 }}
@@ -63,21 +92,11 @@ export default function Home() {
                         transition={{ duration: 0.2 }}
                       >
                         <div className="absolute -inset-px bg-gradient-to-r from-cyan-500 via-purple-500 to-cyan-500 rounded-full opacity-75 blur-sm group-hover:blur-md group-hover:opacity-100 transition-all duration-500"></div>
-                        <Button className="relative px-8 py-4 text-base font-normal text-white bg-black border border-transparent rounded-full z-10">
+                        <Button className="relative px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-base font-normal text-white bg-black border border-transparent rounded-full z-10">
                           Download Now
                         </Button>
                       </motion.div>
                     </div>
-                  </div>
-                  <div className="lg:col-span-2 lg:order-first">
-                    <Image
-                      className="w-full max-w-sm mx-auto"
-                      src="/aura-mockup.png"
-                      alt="Aura Rating App Interface showing holographic orb and metrics"
-                      width={390}
-                      height={844}
-                      priority
-                    />
                   </div>
                 </div>
               </div>
