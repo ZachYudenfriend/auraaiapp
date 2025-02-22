@@ -84,7 +84,7 @@ export default function Home() {
                     <p className="hidden lg:block mt-4 sm:mt-6 text-base sm:text-lg font-normal text-white">
                       Our real-time AI coach helps you develop the skills, mindset, and charisma to own every interaction.
                     </p>
-                    <div className="lg:mt-6">
+                    <div className="lg:mt-8">
                       <motion.div 
                         className="relative inline-flex group"
                         whileHover={{ scale: 1.05 }}
