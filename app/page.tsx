@@ -3,6 +3,7 @@
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import Header from "@/components/header"
+import Footer from "@/components/footer"
 import { motion } from "framer-motion"
 
 export default function Home() {
@@ -103,6 +104,7 @@ export default function Home() {
             </section>
           </div>
         </main>
+        <Footer />
       </div>
     </div>
   )
