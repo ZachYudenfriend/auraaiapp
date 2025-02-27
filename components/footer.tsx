@@ -13,6 +13,12 @@ export default function Footer() {
           >
             Terms & Conditions
           </a>
+          <Link 
+            href="/privacy" 
+            className="text-white/70 hover:text-white transition-colors"
+          >
+            Privacy Policy
+          </Link>
         </nav>
       </div>
     </footer>
