@@ -49,7 +49,28 @@ export default function PrivacyPolicy() {
               <li>Superwall – Manages in-app purchases and subscription services. Superwall may process purchase history data but does not use it for tracking.</li>
               <li>Sentry – Monitors app crashes and performance. Sentry collects crash logs, performance data, and other diagnostic data for internal debugging purposes.</li>
             </ul>
-            <p className="text-white/80 mt-4">These third-party services may process your data on our behalf but do not use it for their own advertising or tracking purposes.</p>
+            <p className="text-white/80 mt-4 mb-4">These third-party services may process your data on our behalf but do not use it for their own advertising or tracking purposes.</p>
+
+            <h3 className="text-lg font-semibold mb-3">Third-Party AI Providers</h3>
+            <p className="text-white/80 mb-4">We may share your information with third-party service providers and partners who assist us in delivering our services. Specifically, we utilize third-party AI service providers to process and enhance your experience. These providers include:</p>
+            <ul className="list-disc pl-6 space-y-3 text-white/80">
+              <li>
+                <span className="font-medium">OpenAI</span> – Powers our AI conversation and interaction features.
+                <br />
+                <a href="https://openai.com/policies/privacy-policy" target="_blank" rel="noopener noreferrer" className="text-cyan-400 hover:text-cyan-300">Privacy Policy</a>
+              </li>
+              <li>
+                <span className="font-medium">ElevenLabs</span> – Provides voice synthesis capabilities.
+                <br />
+                <a href="https://elevenlabs.io/privacy-policy" target="_blank" rel="noopener noreferrer" className="text-cyan-400 hover:text-cyan-300">Privacy Policy</a>
+              </li>
+              <li>
+                <span className="font-medium">MixPanel</span> – Analytics and user behavior tracking.
+                <br />
+                <a href="https://mixpanel.com/legal/app-store-privacy-details/" target="_blank" rel="noopener noreferrer" className="text-cyan-400 hover:text-cyan-300">Privacy Policy</a>
+              </li>
+            </ul>
+            <p className="text-white/80 mt-4">These providers may handle data differently from how we do. We encourage you to review their respective privacy policies (linked above) to understand how they manage and process data.</p>
           </section>
           
           <section>
