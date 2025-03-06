@@ -48,6 +48,11 @@ export default function PrivacyPolicy() {
             <ul className="list-disc pl-6 space-y-2 text-white/80">
               <li>Superwall – Manages in-app purchases and subscription services. Superwall may process purchase history data but does not use it for tracking.</li>
               <li>Sentry – Monitors app crashes and performance. Sentry collects crash logs, performance data, and other diagnostic data for internal debugging purposes.</li>
+              <li>
+                <span className="font-medium">MixPanel</span> – Analytics and user behavior tracking.
+                <br />
+                <a href="https://mixpanel.com/legal/app-store-privacy-details/" target="_blank" rel="noopener noreferrer" className="text-cyan-400 hover:text-cyan-300">Privacy Policy</a>
+              </li>
             </ul>
             <p className="text-white/80 mt-4 mb-4">These third-party services may process your data on our behalf but do not use it for their own advertising or tracking purposes.</p>
 
@@ -64,11 +69,6 @@ export default function PrivacyPolicy() {
                 <br />
                 <a href="https://elevenlabs.io/privacy-policy" target="_blank" rel="noopener noreferrer" className="text-cyan-400 hover:text-cyan-300">Privacy Policy</a>
               </li>
-              <li>
-                <span className="font-medium">MixPanel</span> – Analytics and user behavior tracking.
-                <br />
-                <a href="https://mixpanel.com/legal/app-store-privacy-details/" target="_blank" rel="noopener noreferrer" className="text-cyan-400 hover:text-cyan-300">Privacy Policy</a>
-              </li>
             </ul>
             <p className="text-white/80 mt-4">These providers may handle data differently from how we do. We encourage you to review their respective privacy policies (linked above) to understand how they manage and process data.</p>
           </section>
@@ -81,25 +81,19 @@ export default function PrivacyPolicy() {
           </section>
           
           <section>
-            <h2 className="text-xl font-semibold mb-4">6. User Choices & Data Rights</h2>
-            <ul className="list-disc pl-6 space-y-2 text-white/80">
-              <li>You may disable analytics and diagnostics collection through your device settings where applicable.</li>
-              <li>If you wish to request deletion of any collected data, contact us at support@auraaiapp.com.</li>
-            </ul>
-          </section>
-          
-          <section>
-            <h2 className="text-xl font-semibold mb-4">7. Changes to This Privacy Policy</h2>
+            <h2 className="text-xl font-semibold mb-4">6. Changes to This Privacy Policy</h2>
             <p className="text-white/80">
               We may update this policy periodically. Changes will be reflected with a revised "Effective Date." Continued use of the app after updates constitutes acceptance of the changes.
             </p>
           </section>
           
           <section>
-            <h2 className="text-xl font-semibold mb-4">8. Contact Us</h2>
+            <h2 className="text-xl font-semibold mb-4">7. Contact Us</h2>
             <p className="text-white/80">
               If you have any questions or concerns about this Privacy Policy, you can reach us at:
-            
+              <br />
+              Aura AI
+              <br />
               support@auraaiapp.com
             </p>
           </section>
