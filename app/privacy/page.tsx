@@ -5,7 +5,7 @@ export default function PrivacyPolicy() {
     <div className="min-h-screen bg-[#0B1120] text-white py-8 px-4 sm:px-6 lg:px-8 flex flex-col items-center">
       <div className="w-full max-w-4xl mx-auto">
         <h1 className="text-3xl font-bold mb-4 text-center">Privacy Policy</h1>
-        <p className="text-white/70 mb-6 text-center">Effective Date: 26 February, 2025</p>
+        <p className="text-white/70 mb-6 text-center">Effective Date: March 5, 2025</p>
       </div>
       
       {/* Scrollable container */}
