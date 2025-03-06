@@ -81,14 +81,21 @@ export default function PrivacyPolicy() {
           </section>
           
           <section>
-            <h2 className="text-xl font-semibold mb-4">6. Changes to This Privacy Policy</h2>
+            <h2 className="text-xl font-semibold mb-4">6. User Data Rights</h2>
+            <ul className="list-disc pl-6 space-y-2 text-white/80">
+              <li>If you wish to request deletion of any collected data, contact us at support@auraaiapp.com.</li>
+            </ul>
+          </section>
+          
+          <section>
+            <h2 className="text-xl font-semibold mb-4">7. Changes to This Privacy Policy</h2>
             <p className="text-white/80">
               We may update this policy periodically. Changes will be reflected with a revised "Effective Date." Continued use of the app after updates constitutes acceptance of the changes.
             </p>
           </section>
           
           <section>
-            <h2 className="text-xl font-semibold mb-4">7. Contact Us</h2>
+            <h2 className="text-xl font-semibold mb-4">8. Contact Us</h2>
             <p className="text-white/80">
               If you have any questions or concerns about this Privacy Policy, you can reach us at:
               <br />
