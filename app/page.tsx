@@ -93,9 +93,14 @@ export default function Home() {
                         transition={{ duration: 0.2 }}
                       >
                         <div className="absolute -inset-px bg-gradient-to-r from-cyan-500 via-purple-500 to-cyan-500 rounded-full opacity-75 blur-sm group-hover:blur-md group-hover:opacity-100 transition-all duration-500"></div>
-                        <Button className="relative px-8 py-3 text-base font-normal text-white bg-black border border-transparent rounded-full z-10">
+                        <a 
+                          href="https://apps.apple.com/us/app/aura-ai-the-cold-approach-app/id6742469449"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="relative px-8 py-3 text-base font-normal text-white bg-black border border-transparent rounded-full z-10 inline-flex items-center justify-center"
+                        >
                           Download Now
-                        </Button>
+                        </a>
                       </motion.div>
                     </div>
                   </div>
