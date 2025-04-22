@@ -11,12 +11,22 @@ module.exports = {
       },
     },
     extend: {
+      fontFamily: {
+        'space-grotesk': ['Space Grotesk', 'sans-serif'],
+        'dm-sans': ['DM Sans', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        sauce: {
+          DEFAULT: "#D13C3C",
+          light: "#E05E5E",
+          dark: "#B03232",
+        },
+        "sauce-bg": "#FFFDFE",
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
