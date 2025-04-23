@@ -13,7 +13,7 @@ export default function Home() {
         <Header />
         <main className="flex-1 overflow-hidden flex items-center">
           <div className="w-full">
-            <section className="w-full">
+            <section className="w-full h-full flex items-center">
               <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
                 <div className="flex flex-col lg:grid lg:grid-cols-2 items-center max-w-6xl mx-auto gap-8 lg:gap-16">
                   {/* title - always on top for mobile */}
@@ -38,13 +38,13 @@ export default function Home() {
 
                   {/* image */}
                   <div className="w-full lg:order-first flex justify-center lg:justify-end">
-                    <div className="w-[280px] sm:w-[300px] md:w-[350px] max-w-md mx-auto lg:mx-0">
+                    <div className="w-[280px] sm:w-[300px] md:w-[350px] lg:w-[380px] xl:w-[420px] 2xl:w-[450px] mx-auto lg:mx-0 h-[85vh] flex items-center">
                       <Image
                         src="/sauce-app-mockup.png"
                         alt="sauce app interface showing conversation with a red circle and 'your turn' prompt"
                         width={466}
                         height={977}
-                        className="w-full h-auto"
+                        className="w-full h-auto max-h-full object-contain"
                         priority
                       />
                     </div>
